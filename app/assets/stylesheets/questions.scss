@@ -1,0 +1,36 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Defining a variable
+$lila: #6F2DBD;
+$white: #FFFFFF;
+$purple: #B8D0EB;
+$font-stack: Helvetica, sans-serif;
+
+body {
+  background: $white;
+  font-family: $font-stack;
+
+}
+
+
+.question {
+  border-left: 2px solid $lila;
+  padding: 10px;
+  margin: 16px;
+  width: 500px;
+}
+
+.answer {
+  background: $purple;
+  border-left: 2px solid $lila;
+  padding: 10px;
+  margin: 16px;
+  width: 500px;
+}
+
+.link {
+  color: $purple;
+  text-decoration: none;
+}
